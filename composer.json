@@ -1,0 +1,32 @@
+{
+    "name": "ecomdev/image-resize-server",
+    "description": "Micro-service for Magento 1/2 Image Resizing with HTTP API and static files proxy for blocking receiving of non existing files.",
+    "type": "project",
+    "require": {
+        "react/socket": "^0.4.3",
+        "react/stream": "^0.4.4",
+        "react/http": "^0.4.1",
+        "react/promise": "^2.4",
+        "misterion/ko-process": "^0.5.3"
+    },
+    "require-dev": {
+        "phpspec/phpspec": "^3.1",
+        "phpspec/nyan-formatters": "^2.0",
+        "ciaranmcnulty/phpspec-typehintedmethods": "^2.0"
+    },
+    "config": {
+        "bin-dir": "bin/"
+    },
+    "autoload": {
+        "psr-4": {
+           "EcomDev\\ImageResizeServer\\": "src/"
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ivan Chepurnyi",
+            "email": "ivan.chepurnyi@ecomdev.org"
+        }
+    ]
+}

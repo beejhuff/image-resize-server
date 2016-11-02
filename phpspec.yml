@@ -1,0 +1,8 @@
+suites:
+  default:
+    namespace: EcomDev\ImageResizeServer
+    psr4_prefix: EcomDev\ImageResizeServer
+formatter.name: nyan.cat
+extensions:
+  PhpSpec\NyanFormattersExtension\Extension: ~
+  Cjm\PhpSpec\Extension\TypeHintedMethodsExtension: ~
